@@ -26,7 +26,7 @@ jobs:
           target: ${{ matrix.target }}
       - run: mkdir bin
       - run: cargo build --release --target ${{ matrix.target }}
-      - run: mv target/release/_kn bin/_kn
+      - run: mv ${{ matrix.target }}/target/release/_kn bin/_kn
       - name: Upload binary
         uses: actions/upload-artifact@v5
         with:
