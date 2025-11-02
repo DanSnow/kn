@@ -42,3 +42,8 @@ pretty_assertions = "1.4"
 
 [profile.release]
 lto = true
+
+# The profile that 'dist' will build with
+[profile.dist]
+inherits = "release"
+lto = "thin"
