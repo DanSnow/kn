@@ -1,7 +1,10 @@
 # `kn` — nvgt/fldrs/qckly
 
-![Github Actions badge](https://github.com/micouy/kn/actions/workflows/tests.yml/badge.svg)
+![Github Actions badge](https://github.com/DanSnow/kn/actions/workflows/tests.yml/badge.svg)
 [![crates.io badge](https://img.shields.io/crates/v/kn.svg)](https://crates.io/crates/kn)
+
+> [!NOTE]
+> This is a fork of the original `kn` project. I do not plan to add new features, but will perform necessary maintenance. The primary goal of this fork is to set up continuous integration (CI) for building binary releases, which can then be easily installed using [dotbins](https://github.com/basnijholt/dotbins).
 
 <p align="center">
 <img src="assets/banner.svg" />
